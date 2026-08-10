@@ -1,0 +1,15 @@
+# Virtual environment
+.venv/
+venv/
+ENV/
+
+# PyCharm configuration
+.idea/
+
+# Python bytecode cache
+__pycache__/
+*.py[cod]
+
+# OS generated files
+.DS_Store
+Thumbs.db
