@@ -6,7 +6,7 @@ This repository contains an end-to-end data processing and empirical research pi
 Using raw data from the **AI Incident Database (AIID)**, this project extracts, tags, and evaluates 1,607 documented incident records to understand why AI implementations fail in practice.
 
 ---
-
+link - https://incidentdatabase.ai/research/snapshots/
 ## Empirical Findings (N = 1,607)
 
 | Socio-Technical Dimension | Incident Count | Percentage | Primary Indicators |
@@ -67,8 +67,6 @@ pip install pandas openpyxl matplotlib requests
 ## Execution Pipeline
 
 1. Setup Data: Ensure the raw Excel export (AIID__Excel__Export-20260803.xlsx) is placed inside data/raw/ (or run python 01_ingest_incidents.py to fetch data via API).
-
-link - https://incidentdatabase.ai/research/snapshots/
 
 2. Process & Tag Dataset: Run the HTO classification pipeline to parse raw incident text and assign socio-technical tags: python 02_parse_and_code.py
 
