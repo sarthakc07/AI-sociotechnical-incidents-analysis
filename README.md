@@ -48,8 +48,30 @@ pip install pandas openpyxl matplotlib requests
 
 1. Setup Data: Ensure the raw Excel export (AIID__Excel__Export-20260803.xlsx) is placed inside data/raw/ (or run python 01_ingest_incidents.py to fetch data via API).
 
+link - https://incidentdatabase.ai/research/snapshots/
+
 2. Process & Tag Dataset: Run the HTO classification pipeline to parse raw incident text and assign socio-technical tags: python 02_parse_and_code.py
 
 3. Generate Analytics & Charts: Compute statistical distributions and output the visualization: python 03_analyze_data.py
 
 4. Outputs will be saved directly to data/processed/ai_incidents_tagged.csv and data/processed/hto_distribution_chart.png.
+
+--------------------------------------------------------
+
+## Macro Longitudinal Trends (OECD AIM Dataset: 2020–2026)
+
+In addition to the qualitative HTO breakdown, a macro longitudinal analysis was conducted on the **OECD AI Incidents and Hazards Monitor (AIM)** dataset ($N = 16,737$ incidents across 79 months).
+
+| Metric | 2020 Baseline | 2025 Peak | 2026 Trajectory (Jan–Jul) | Overall Shift |
+| :--- | :--- | :--- | :--- | :--- |
+| **Annual Incidents** | 900 | 4,571 | 4,030 (7 months) | **5.0x increase** |
+| **Avg. Monthly Incidents** | 75.0 / month | 380.9 / month | 575.7 / month | **7.7x surge** |
+| **Incident Rate per 1k AI Events** | 27.65 | 25.85 | 26.84 | **Stable proportion** |
+
+![OECD Longitudinal Trends](data/processed/oecd_longitudinal_trends.png)
+
+### Key Takeaways
+1. **Accelerating Failure Frequency:** Monthly AI incident reports expanded 7.67x between 2020 and 2026, demonstrating that risk exposure scales alongside adoption velocity.
+2. **Linear Growth Rate:** The constant incident intensity rate (~26 incidents per 1,000 AI news events) indicates that failure occurrence is systematically tied to deployment scale, reinforcing the necessity of automated socio-technical governance frameworks.
+
+link - https://oecd.ai/en/incidents?search_terms=%5B%5D&and_condition=false&from_date=1900-08-11&to_date=2026-08-11&properties_config=%7B%22principles%22:%5B%5D,%22industries%22:%5B%5D,%22harm_types%22:%5B%5D,%22harm_levels%22:%5B%5D,%22harmed_entities%22:%5B%5D,%22business_functions%22:%5B%5D,%22ai_tasks%22:%5B%5D,%22autonomy_levels%22:%5B%5D,%22languages%22:%5B%5D%7D&order_by=date&num_results=20
