@@ -4,7 +4,7 @@
 
 1. [Summary](#summary)
 2. [Literature Synthesis](#2-literature-synthesis)
-3. [Synthesis Matrix](#3-synthesis-matrix)
+3. [Synthesis Matrix SME Barriers](#3-synthesis-matrix-sme-barriers)
 4. [Empirical Dataset Analysis](#4-empirical-dataset-analysis)
    - [Micro-Level: AIID HTO Mapping](#micro-level-aiid-hto-mapping)
    - [Macro-Level: OECD Trajectories](#macro-level-oecd-trajectories)
@@ -56,7 +56,7 @@ Prior literature evaluating artificial intelligence (AI) adoption across small a
 
 ------------------------
 
-## 3. Synthesis Matrix SME Barriers (HTO Framework)
+## 3. Synthesis Matrix SME Barriers
 
 | HTO Dimension | Core Institutional Barriers | Source Validations |
 | :--- | :--- | :--- |
