@@ -39,7 +39,7 @@ The baseline literature (2019–2025) confirms that while technical deficits—s
 
 
 ------------------------------------------------------------------------------
-# Empirical Socio-Technical Analysis of Real-World AI Incidents
+## 2. Empirical Socio-Technical Analysis of Real-World AI Incidents
 
 ## Overview
 This repository contains an end-to-end data processing and empirical research pipeline that categorizes real-world AI failures using the **Human-Technology-Organization (HTO) Socio-Technical Framework**.
