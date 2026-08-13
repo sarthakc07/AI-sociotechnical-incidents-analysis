@@ -12,7 +12,7 @@
 4. [Empirical Dataset Analysis](#4-empirical-dataset-analysis)
    - [Micro-Level: AIID HTO Mapping](#micro-level-aiid-hto-mapping)
    - [Macro-Level: OECD Trajectories](#macro-level-oecd-trajectories)
-5. [Repository Structure](#5-repository--structure)
+5. [Repository Structure](#5-repository-structure)
 6. [References](#6-references)
 
 
