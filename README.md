@@ -1,5 +1,15 @@
 # Empirical Socio-Technical Analysis of Real-World AI Incidents
 
+## Table of Contents
+
+1. [Summary](#summary)
+2. [Baseline Literature Synthesis (Theory)](#2-baseline-literature-synthesis-theory)
+3. [Empirical Dataset Analysis (Reality)](#3-empirical-dataset-analysis-reality)
+   - [Micro-Level: AIID HTO Mapping](#micro-level-aiid-hto-mapping)
+   - [Macro-Level: OECD Trajectories](#macro-level-oecd-trajectories)
+4. [Installation & Reproduction](#4-installation--reproduction)
+
+
 ## 1. Summary
 
 Investigating real-world socio-technical barriers in enterprise AI adoption by combining qualitative failure categorization with macro-level risk trajectory modeling to identify why deployed AI systems fail.
@@ -11,19 +21,6 @@ Investigating real-world socio-technical barriers in enterprise AI adoption by c
   Engineered automated Python (Pandas) ETL pipelines to validate these theoretical barriers against real-world failures, processing 1,607 qualitative AIID logs and 16,737 OECD macro records (2020–2026).
   * **Micro-Level Mapping:** Applied regex-driven NLP heuristics within the Human-Technology-Organization (HTO) framework, proving that 74% of deployment failures are generated from human oversight and trust breakdowns, compared to 44% from system reliability, while 43.4% involve cross-dimensional overlap, and 27.1% from governance issues. 
   * **Macro-Level Trajectories:** Modeled multi-year risk trends showing a 7.67x surge in monthly AI incidents (75.0 to 575.7/month) while establishing a stable incident intensity rate.
-
----
-
-## Table of Contents
-
-1. [Summary](#summary)
-2. [Baseline Literature Synthesis (Theory)](#2-baseline-literature-synthesis-theory)
-3. [Empirical Dataset Analysis (Reality)](#3-empirical-dataset-analysis-reality)
-   - [Micro-Level: AIID HTO Mapping](#micro-level-aiid-hto-mapping)
-   - [Macro-Level: OECD Trajectories](#macro-level-oecd-trajectories)
-4. [Installation & Reproduction](#4-installation--reproduction)
-
----
 
 ## 2. Baseline Literature Synthesis (15 Studies, 2019–2025)
 
@@ -93,8 +90,6 @@ The baseline literature (2019–2025) confirms that while technical deficits—s
 *   Vial, G., Cameron, A.-F., Giannelia, T., & Jiang, J. (2023). Managing artificial intelligence projects: Key insights from an AI consulting firm. *Information Systems Journal, 33*, 669-691.
 *   Zavodna, L. S., Überwimmer, M., & Frankus, E. (2024). Barriers to the implementation of artificial intelligence in small and medium-sized enterprises: Pilot study. *Journal of Economics and Management, 46*, 331-352.
 ------------------------------------------------------------------------------
-
-------------------------
 
 ## 3. Empirical Dataset Analysis (Reality)
 
