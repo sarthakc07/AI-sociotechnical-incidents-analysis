@@ -1,14 +1,19 @@
 # Empirical Socio-Technical Analysis of Real-World AI Incidents
 
+![Python](https://img.shields.io/badge/Python-3.9+-blue)
+![Pandas](https://img.shields.io/badge/Pandas-Data_Analysis-green)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-orange)
+
 ## Table of Contents
 
-1. [Summary](#summary)
+1. [Summary](#1-summary)
 2. [Literature Synthesis](#2-literature-synthesis)
 3. [Synthesis Matrix SME Barriers](#3-synthesis-matrix-sme-barriers)
 4. [Empirical Dataset Analysis](#4-empirical-dataset-analysis)
    - [Micro-Level: AIID HTO Mapping](#micro-level-aiid-hto-mapping)
    - [Macro-Level: OECD Trajectories](#macro-level-oecd-trajectories)
 5. [Repository Structure](#5-repository--structure)
+6. [References](#6-references)
 
 
 ## 1. Summary
@@ -73,25 +78,6 @@ The baseline literature (2019–2025) confirms that while technical deficits—s
 
 ---
 
-### References
-
-*   Bellahmar, H., Souidi, D., Bellahmar, A., Ouessai, R., Habibi, Z., & Mokhtari, H. (2025). The reality of artificial intelligence within small and medium enterprises in Algeria, a prospective study. *South Florida Journal of Development, 6*(5), 1-19.
-*   Bérubé, M., Giannelia, T., & Vial, G. (2021). Barriers to the Implementation of AI in Organizations: Findings from a Delphi Study. *Proceedings of the 54th Hawaii International Conference on System Sciences*, 6702-6711.
-*   Bettoni, A., Matteri, D., Montini, E., Gładysz, B., & Carpanzano, E. (2021). An AI adoption model for SMEs: a conceptual framework. *IFAC PapersOnLine, 54*(1), 702-708.
-*   Dondorf, V., Happe, L., Hobscheidt, D., Kürpick, C., & Dumitrescu, R. (2025). Evaluation Of The Challenges In Implementing AI Across The Different Phases - Empirical Insights Derived From AI Implementation Projects In Industry. *CPSL 2025*, 207-220.
-*   Grünbichler, R. (2023). Implementation Barriers of Artificial Intelligence in Companies. *Graz University of Technology*, 193-203.
-*   Gumbo, L., & Booyse, N. J. (2025). Artificial Intelligence Implementation Strategies in Business: A Systematic Review. *Business Excellence and Management, 15*(5), 92-110.
-*   Hamm, P., & Klesel, M. (2021). Success Factors for the Adoption of Artificial Intelligence in Organizations: A Literature Review. *AMCIS 2021 Proceedings*, 1-10.
-*   Irman, D., & Putra, D. (2025). AI Adoption in Business: Opportunities and Challenges for Start-ups. *International Journal of Business, Economics and Social Development, 6*(1), 99-104.
-*   Kramarenko, A. (2025). Artificial Intelligence for Small and Medium Business: Perspectives and Challenges. *Journal of Engineering Management and Competitiveness, 15*(1), 43-56.
-*   Rane, N. L., Choudhary, S. P., & Rane, J. (2024). Acceptance of artificial intelligence: key factors, challenges, and implementation strategies. *Journal of Applied Artificial Intelligence, 5*(2), 50-70.
-*   Riedl, M. O. (2019). Human-centered artificial intelligence and machine learning. *Human Behavior and Emerging Technologies, 1*, 33-36.
-*   Schönberger, M. (2023). Artificial Intelligence for Small and Medium-Sized Enterprises: Identifying Key Applications and Challenges. *Journal of Business Management, 21*, 89-112.
-*   Ulrich, P., Frank, V., & Kratt, M. (2021). Adoption of artificial intelligence technologies in German SMEs — Results from an empirical study. *Virtus*, 76-84.
-*   Vial, G., Cameron, A.-F., Giannelia, T., & Jiang, J. (2023). Managing artificial intelligence projects: Key insights from an AI consulting firm. *Information Systems Journal, 33*, 669-691.
-*   Zavodna, L. S., Überwimmer, M., & Frankus, E. (2024). Barriers to the implementation of artificial intelligence in small and medium-sized enterprises: Pilot study. *Journal of Economics and Management, 46*, 331-352.
-------------------------------------------------------------------------------
-
 ## 4. Empirical Dataset Analysis
 
 This repository contains an end-to-end data processing and empirical research pipeline that categorizes real-world AI failures using the **Human-Technology-Organization (HTO) Socio-Technical Framework**.
@@ -100,7 +86,7 @@ This repository contains an end-to-end data processing and empirical research pi
 
 Using raw data from the **AI Incident Database (AIID)**, this project extracts, tags, and evaluates 1,607 documented incident records to understand why AI implementations fail in practice.
 
-link - https://incidentdatabase.ai/research/snapshots/
+Source: AI Incident Database (AIID) Research Snapshot - https://incidentdatabase.ai/research/snapshots/
 ## Empirical Findings (N = 1,607)
 
 | Socio-Technical Dimension | Incident Count | Percentage | Primary Indicators |
@@ -131,7 +117,7 @@ In addition to the qualitative HTO breakdown, a macro longitudinal analysis was 
 1. **Accelerating Failure Frequency:** Monthly AI incident reports expanded 7.67x between 2020 and 2026, demonstrating that risk exposure scales alongside adoption velocity.
 2. **Linear Growth Rate:** The constant incident intensity rate (~26 incidents per 1,000 AI news events) indicates that failure occurrence is systematically tied to deployment scale, reinforcing the necessity of automated socio-technical governance frameworks.
 
-link - https://oecd.ai/en/incidents?search_terms=%5B%5D&and_condition=false&from_date=1900-08-11&to_date=2026-08-11&properties_config=%7B%22principles%22:%5B%5D,%22industries%22:%5B%5D,%22harm_types%22:%5B%5D,%22harm_levels%22:%5B%5D,%22harmed_entities%22:%5B%5D,%22business_functions%22:%5B%5D,%22ai_tasks%22:%5B%5D,%22autonomy_levels%22:%5B%5D,%22languages%22:%5B%5D%7D&order_by=date&num_results=20
+Source: OECD AI Incidents and Hazards Monitor (AIM) - https://oecd.ai/en/incidents?search_terms=%5B%5D&and_condition=false&from_date=1900-08-11&to_date=2026-08-11&properties_config=%7B%22principles%22:%5B%5D,%22industries%22:%5B%5D,%22harm_types%22:%5B%5D,%22harm_levels%22:%5B%5D,%22harmed_entities%22:%5B%5D,%22business_functions%22:%5B%5D,%22ai_tasks%22:%5B%5D,%22autonomy_levels%22:%5B%5D,%22languages%22:%5B%5D%7D&order_by=date&num_results=20
 
 ## 5. Repository Structure
 
@@ -164,10 +150,26 @@ pip install pandas openpyxl matplotlib requests
 
 --------------------------------------------------------
 ------------------------------------------------------------------ 
+```
 
+## 6. References
 
-
----
+*   Bellahmar, H., Souidi, D., Bellahmar, A., Ouessai, R., Habibi, Z., & Mokhtari, H. (2025). The reality of artificial intelligence within small and medium enterprises in Algeria, a prospective study. *South Florida Journal of Development, 6*(5), 1-19.
+*   Bérubé, M., Giannelia, T., & Vial, G. (2021). Barriers to the Implementation of AI in Organizations: Findings from a Delphi Study. *Proceedings of the 54th Hawaii International Conference on System Sciences*, 6702-6711.
+*   Bettoni, A., Matteri, D., Montini, E., Gładysz, B., & Carpanzano, E. (2021). An AI adoption model for SMEs: a conceptual framework. *IFAC PapersOnLine, 54*(1), 702-708.
+*   Dondorf, V., Happe, L., Hobscheidt, D., Kürpick, C., & Dumitrescu, R. (2025). Evaluation Of The Challenges In Implementing AI Across The Different Phases - Empirical Insights Derived From AI Implementation Projects In Industry. *CPSL 2025*, 207-220.
+*   Grünbichler, R. (2023). Implementation Barriers of Artificial Intelligence in Companies. *Graz University of Technology*, 193-203.
+*   Gumbo, L., & Booyse, N. J. (2025). Artificial Intelligence Implementation Strategies in Business: A Systematic Review. *Business Excellence and Management, 15*(5), 92-110.
+*   Hamm, P., & Klesel, M. (2021). Success Factors for the Adoption of Artificial Intelligence in Organizations: A Literature Review. *AMCIS 2021 Proceedings*, 1-10.
+*   Irman, D., & Putra, D. (2025). AI Adoption in Business: Opportunities and Challenges for Start-ups. *International Journal of Business, Economics and Social Development, 6*(1), 99-104.
+*   Kramarenko, A. (2025). Artificial Intelligence for Small and Medium Business: Perspectives and Challenges. *Journal of Engineering Management and Competitiveness, 15*(1), 43-56.
+*   Rane, N. L., Choudhary, S. P., & Rane, J. (2024). Acceptance of artificial intelligence: key factors, challenges, and implementation strategies. *Journal of Applied Artificial Intelligence, 5*(2), 50-70.
+*   Riedl, M. O. (2019). Human-centered artificial intelligence and machine learning. *Human Behavior and Emerging Technologies, 1*, 33-36.
+*   Schönberger, M. (2023). Artificial Intelligence for Small and Medium-Sized Enterprises: Identifying Key Applications and Challenges. *Journal of Business Management, 21*, 89-112.
+*   Ulrich, P., Frank, V., & Kratt, M. (2021). Adoption of artificial intelligence technologies in German SMEs — Results from an empirical study. *Virtus*, 76-84.
+*   Vial, G., Cameron, A.-F., Giannelia, T., & Jiang, J. (2023). Managing artificial intelligence projects: Key insights from an AI consulting firm. *Information Systems Journal, 33*, 669-691.
+*   Zavodna, L. S., Überwimmer, M., & Frankus, E. (2024). Barriers to the implementation of artificial intelligence in small and medium-sized enterprises: Pilot study. *Journal of Economics and Management, 46*, 331-352.
+------------------------------------------------------------------------------
 
 
 
