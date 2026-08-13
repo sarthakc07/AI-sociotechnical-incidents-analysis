@@ -86,7 +86,7 @@ This repository contains an end-to-end data processing and empirical research pi
 
 Using raw data from the **AI Incident Database (AIID)**, this project extracts, tags, and evaluates 1,607 documented incident records to understand why AI implementations fail in practice.
 
-Source: AI Incident Database (AIID) Research Snapshot - https://incidentdatabase.ai/research/snapshots/
+[Source: AI Incident Database (AIID) Research Snapshot] - (https://incidentdatabase.ai/research/snapshots/)
 ## Empirical Findings (N = 1,607)
 
 | Socio-Technical Dimension | Incident Count | Percentage | Primary Indicators |
@@ -117,7 +117,7 @@ In addition to the qualitative HTO breakdown, a macro longitudinal analysis was 
 1. **Accelerating Failure Frequency:** Monthly AI incident reports expanded 7.67x between 2020 and 2026, demonstrating that risk exposure scales alongside adoption velocity.
 2. **Linear Growth Rate:** The constant incident intensity rate (~26 incidents per 1,000 AI news events) indicates that failure occurrence is systematically tied to deployment scale, reinforcing the necessity of automated socio-technical governance frameworks.
 
-Source: OECD AI Incidents and Hazards Monitor (AIM) - https://oecd.ai/en/incidents?search_terms=%5B%5D&and_condition=false&from_date=1900-08-11&to_date=2026-08-11&properties_config=%7B%22principles%22:%5B%5D,%22industries%22:%5B%5D,%22harm_types%22:%5B%5D,%22harm_levels%22:%5B%5D,%22harmed_entities%22:%5B%5D,%22business_functions%22:%5B%5D,%22ai_tasks%22:%5B%5D,%22autonomy_levels%22:%5B%5D,%22languages%22:%5B%5D%7D&order_by=date&num_results=20
+[Source: OECD AI Incidents and Hazards Monitor (AIM)] - (https://oecd.ai/en/incidents?search_terms=%5B%5D&and_condition=false&from_date=1900-08-11&to_date=2026-08-11&properties_config=%7B%22principles%22:%5B%5D,%22industries%22:%5B%5D,%22harm_types%22:%5B%5D,%22harm_levels%22:%5B%5D,%22harmed_entities%22:%5B%5D,%22business_functions%22:%5B%5D,%22ai_tasks%22:%5B%5D,%22autonomy_levels%22:%5B%5D,%22languages%22:%5B%5D%7D&order_by=date&num_results=20)
 
 ## 5. Repository Structure
 
