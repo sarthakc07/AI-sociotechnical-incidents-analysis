@@ -4,7 +4,7 @@
 
 1. [Summary](#summary)
 2. [Literature Synthesis](#2-literature-synthesis)
-3. [Synthesis Matrix](#3-synthesis-matgrix)
+3. [Synthesis Matrix](#3-synthesis-matrix)
 4. [Empirical Dataset Analysis](#4-empirical-dataset-analysis)
    - [Micro-Level: AIID HTO Mapping](#micro-level-aiid-hto-mapping)
    - [Macro-Level: OECD Trajectories](#macro-level-oecd-trajectories)
