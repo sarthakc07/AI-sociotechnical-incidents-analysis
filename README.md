@@ -80,7 +80,7 @@ The baseline literature (2019–2025) confirms that while technical deficits—s
 
 ## 4. Empirical Dataset Analysis
 
-This repository contains an end-to-end data processing and empirical research pipeline that categorizes real-world AI failures using the **Human-Technology-Organization (HTO) Socio-Technical Framework**.
+To empirically validate the adoption barriers identified in the literature, this repository executes an end-to-end data processing pipeline across two real-world datasets. It combines a micro-level qualitative categorization of AI failures using the Human-Technology-Organization (HTO) framework (AIID) with a macro-level longitudinal analysis of global risk trajectories (OECD).
 
 ### Micro-Level: AIID HTO Mapping
 
