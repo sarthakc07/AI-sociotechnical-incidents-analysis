@@ -148,8 +148,6 @@ pip install pandas openpyxl matplotlib requests
 
 4. Outputs will be saved directly to data/processed/ai_incidents_tagged.csv and data/processed/hto_distribution_chart.png.
 
---------------------------------------------------------
------------------------------------------------------------------- 
 ```
 
 ## 6. References
