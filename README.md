@@ -28,7 +28,7 @@ Investigating real-world socio-technical barriers in enterprise AI adoption by c
   * **Micro-Level Mapping:** Applied regex-driven NLP heuristics within the Human-Technology-Organization (HTO) framework, proving that 74% of deployment failures are generated from human oversight and trust breakdowns, compared to 44% from system reliability, while 43.4% involve cross-dimensional overlap, and 27.1% from governance issues. 
   * **Macro-Level Trajectories:** Modeled multi-year risk trends showing a 7.67x surge in monthly AI incidents (75.0 to 575.7/month) while establishing a stable incident intensity rate.
 
-## 2. Literature Synthesis (15 Studies, 2019–2025)
+## 2. Literature Synthesis (15 Studies 2019–2025)
 
 Prior literature evaluating artificial intelligence (AI) adoption across small and medium-sized enterprises (SMEs) and broader industrial contexts highlights a complex web of structural, technical, and behavioral barriers (Bettoni et al., 2021; Grünbichler, 2023; Hamm & Klesel, 2021). While AI presents transformational opportunities for operational efficiency, workflow automation, and predictive decision-making (Kramarenko, 2025; Rane et al., 2024; Schönberger, 2023), adoption rates in SMEs remain disproportionately low (Bettoni et al., 2021; Kramarenko, 2025). By synthesizing findings from recent empirical and conceptual research, the predominant adoption hurdles can be structurally mapped directly to the Human-Technology-Organization (HTO) socio-technical framework (Bérubé et al., 2021; Dondorf et al., 2025).
 
