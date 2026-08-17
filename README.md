@@ -7,7 +7,7 @@
 ## Table of Contents
 
 1. [Summary](#1-summary)
-2. [Literature Synthesis (15 Studies, 2019–2025)](#2-literature-synthesis-(15-studies-,-2019-2025))
+2. [Literature Synthesis (15 Studies, 2019–2025)](#2-literature-synthesis-(15-studies-2019-2025))
 3. [Synthesis Matrix SME Barriers](#3-synthesis-matrix-sme-barriers)
 4. [Empirical Dataset Analysis](#4-empirical-dataset-analysis)
    - [Micro-Level: AIID HTO Mapping](#micro-level-aiid-hto-mapping)
